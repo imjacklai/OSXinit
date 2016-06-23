@@ -34,7 +34,7 @@ fi
 
 # Download Zsh theme - Spaceship
 THEME_FILE="$HOME/.oh-my-zsh/themes/spaceship.zsh-theme"
-REMOTE_FILE="https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/spaceship.zsh-theme"
+REMOTE_FILE="https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/spaceship.zsh"
 if [ ! -f "$THEME_FILE" ]; then
   curl -o $THEME_FILE $REMOTE_FILE
 fi
@@ -101,10 +101,6 @@ brew services start mysql
 
 brew install redis
 brew services start redis
-
-brew install nginx
-brew services start nginx
-
 
 # Others
 # ---------------------------------------------------------------
