@@ -47,3 +47,7 @@
   "word_wrap": true
 }
 ```
+
+## App Icon
+
+[Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650)
