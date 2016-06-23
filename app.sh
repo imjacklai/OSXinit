@@ -8,7 +8,7 @@ brew cask install firefox
 # Development
 # --------------------------------------------------
 brew cask install java
-brew cask install caskroom-versions/sublime-text3
+brew cask install sublime-text
 brew cask install android-studio
 brew cask install android-file-transfer
 brew cask install genymotion
